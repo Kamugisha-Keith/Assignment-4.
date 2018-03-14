@@ -1,0 +1,28 @@
+\documentclass[12pt, letterpaper]{article}
+\title{Assignment 4 (literature review of Mobile Vision.)}
+\author{Kamugisha Keith 12/u/6112ps 212012455.}
+\begin{document}
+\section{Introduction.}
+	Face detection is the process of automatically locating human faces in visual media (digital images or video). 
+	The performance of face detection systems has improved significantly but still the problem is not accurately solved. Today’s face detection applications make use application programming interface (API) and pattern detection researcher more concern on this facial detection topic. My motivation is to build a face detection system to use in daily life using low cost mobile devices and embedded computing systems.
+\section{System review.}	
+\subsection{Google Mobile Vision Application Programming Interface (API).}
+	The Google Mobile Vision API according to google developer applications [1] provides a framework for finding objects in photos and video. The framework includes detectors, which locate and describe visual objects in images or video frames, and an event driven API that tracks the position of those objects in video. Currently, the Mobile Vision API includes face, barcode, and text detectors, which can be applied separately or together.
+\subsubsection{limitation of Google Mobile Vision API.}
+	According to TechJini [2] limitations of Google Mobile Vision API include:
+	\begin{itemize}
+		\item Face detector does not support face recognition. This does not have the capability to identify 2 identical faces. 
+		\item Face detector supports only 2 classifications which include; Eyes open, Smiling.
+	\end{itemize}
+\subsection{FaceApp.}
+	The FaceApp is an application I’m undertaking that will serve as an image-processing algorithm to smartly identify, caption and moderate pictures. 
+	FaceApp will detect one or more human faces in an image and along with face attributes which contain machine learning-based predictions of facial features, get back face rectangles for where in the image the faces are. Some of the features will include:
+	•	Face identification FaceApp enables you to search, identify, and match faces in your private database.
+	•	Similar face search Easily find similar-looking faces. Given a collection of faces and a new face as a query, the FaceApp will return a collection of similar faces.
+	•	Face grouping Organize many unidentified faces together into groups, based on their visual similarity.
+\section{Conclusion.} 
+	Overall Google vision API provides good results for most image recognition but still has some limitations. FaceApp proposed will be capability to identify 2 identical faces and support more Face detector classifications i.e. Age, Emotion, Gender, Pose, Smile, and Facial Hair.
+\section{References}
+	[1]	” Google Developers. (2018). Mobile Vision | Google Developers. “[online] Available: https://developers.google.com/vision/ [Accessed 7 Mar. 2018].
+	[2]	"What is Mobile Vision API and its limitations? - TechJini", TechJini, 2018. [Online]. Available: http://www.techjini.com/blog/mobile-vision-api/. [Accessed: 07- Mar- 2018].
+\end{document}
